@@ -1,8 +1,8 @@
-# Anime Recommendation System 🎌
+# Anime Recommendation System
 
 This project aims to build a recommendation engine for anime using machine learning. It explores user preferences, anime genres, and ratings to suggest the next best watch.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.x
@@ -36,22 +36,22 @@ This project aims to build a recommendation engine for anime using machine learn
    pip install -r requirements.txt
    ```
 
-## 📊 Project Structure
+## Project Structure
 
 - `data/`: Contains the datasets used (Note: ignored by git if large).
 - `data-exploration.ipynb`: Initial notebook for cleaning and understanding the data.
 - `requirements.txt`: List of Python libraries needed.
 - `.gitignore`: Files and folders to be excluded from version control.
 
-## 📁 Dataset
+## Dataset
 The dataset currently being explored is the **AnimeList** CSV, which includes features like:
 - `anime_id`, `title`, `genre`, `score`, `popularity`, and `members`.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Languages:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-## 📝 Roadmap
+## Roadmap
 - [x] Initial Data Exploration
 - [ ] Data Cleaning & Preprocessing
 - [ ] Exploratory Data Analysis (EDA)

@@ -44,8 +44,12 @@ This project aims to build a recommendation engine for anime using machine learn
 - `.gitignore`: Files and folders to be excluded from version control.
 
 ## Dataset
-The dataset currently being explored is the **AnimeList** CSV, which includes features like:
-- `anime_id`, `title`, `genre`, `score`, `popularity`, and `members`.
+The dataset used in this project is the **[MyAnimeList Dataset](https://www.kaggle.com/datasets/azathoth42/myanimelist)** by azathoth42 on Kaggle. It includes:
+- `AnimeList.csv`: Core information about ~14,000+ anime.
+- `UserList.csv`: User demographic data.
+- `UserAnimeList.csv`: Millions of individual user ratings.
+
+Currently, the project is focusing on `AnimeList.csv` for content-based recommendations.
 
 ## Tech Stack
 - **Languages:** Python

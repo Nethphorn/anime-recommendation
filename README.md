@@ -38,8 +38,10 @@ This project aims to build a recommendation engine for anime using machine learn
 
 ## Project Structure
 
-- `data/`: Contains the datasets used (Note: ignored by git if large).
+- `data/`: Contains the datasets used.
 - `data-exploration.ipynb`: Initial notebook for cleaning and understanding the data.
+- `preprocessing.ipynb`: Data cleaning and creation of the Content-Based Engine.
+- `deep_learning_preprocessing.ipynb`: Preprocessing large user interaction data for neural networks (Phase 2).
 - `requirements.txt`: List of Python libraries needed.
 - `.gitignore`: Files and folders to be excluded from version control.
 
@@ -55,10 +57,15 @@ Currently, the project is focusing on `AnimeList.csv` for content-based recommen
 - **Languages:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-## Roadmap
+### Phase 1: Content-Based Engine (Completed ✅)
 - [x] Initial Data Exploration
-- [ ] Data Cleaning & Preprocessing
-- [ ] Exploratory Data Analysis (EDA)
-- [ ] Feature Engineering
-- [ ] Model Selection & Training
-- [ ] Evaluation & Optimization
+- [x] Data Cleaning & Preprocessing
+- [x] Genre-based Similarity Matrix
+- [x] Smart Recommendation Function (Weighted by Score)
+
+### Phase 2: Deep Learning Collaborative Filtering (In Progress 🏗️)
+- [/] Preprocessing User Interaction Data (`UserAnimeList.csv`)
+- [ ] User & Anime Embedding Layers
+- [ ] Neural Collaborative Filtering (NCF) Model Architecture
+- [ ] Model Training & Evaluation (PyTorch)
+- [ ] Hybrid Integration (Merging Content + Deep Learning)

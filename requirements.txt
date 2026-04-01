@@ -1,6 +1,4 @@
-torch
-torchvision
-torchaudio
+tensorflow
 pandas
 numpy
 matplotlib
